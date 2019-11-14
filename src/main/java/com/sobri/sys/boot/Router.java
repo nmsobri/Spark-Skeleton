@@ -1,6 +1,6 @@
 package com.sobri.sys.boot;
 
-import static spark.Spark.get;
+import static spark.Spark.*;
 
 import com.google.inject.Injector;
 import com.sobri.app.controller.IndexController;
