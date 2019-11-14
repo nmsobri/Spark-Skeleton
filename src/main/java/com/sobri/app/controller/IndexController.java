@@ -3,7 +3,7 @@ package com.sobri.app.controller;
 import spark.Request;
 import spark.Response;
 import com.google.inject.Inject;
-import com.sobri.sys.lib.AppController;
+import com.sobri.lib.AppController;
 import com.sobri.app.model.service.IndexService;
 
 public class IndexController extends AppController {

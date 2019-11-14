@@ -3,6 +3,7 @@ package com.sobri.sys.boot;
 import static spark.Spark.*;
 
 import com.google.inject.Injector;
+import com.sobri.library.AppFilter;
 import com.sobri.app.controller.IndexController;
 
 public class Router {
@@ -17,6 +18,11 @@ public class Router {
     }
 
     public void register() {
+        before("*", AppFilter.addTrailingSlashes);
+
+        // Add your route here
         get("/", this.instance(IndexController.class)::Index);
+
+        after("*", AppFilter.addGzipHeader);
     }
 }

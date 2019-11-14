@@ -1,4 +1,4 @@
-package com.sobri.sys.lib;
+package com.sobri.lib;
 
 public class AppController {
 }

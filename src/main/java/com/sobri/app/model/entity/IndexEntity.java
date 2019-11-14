@@ -1,6 +1,6 @@
 package com.sobri.app.model.entity;
 
-import com.sobri.sys.lib.AppModel;
+import com.sobri.lib.AppModel;
 
 public class IndexEntity extends AppModel {
 

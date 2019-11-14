@@ -1,7 +1,7 @@
 package com.sobri.app.model.service;
 
 import com.google.inject.Inject;
-import com.sobri.sys.lib.AppService;
+import com.sobri.lib.AppService;
 import com.sobri.app.model.repository.IndexRepository;
 
 public class IndexService extends AppService {
