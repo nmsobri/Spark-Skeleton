@@ -2,8 +2,8 @@ package com.sobri.sys.boot;
 
 import static spark.Spark.*;
 
+import com.sobri.lib.AppFilter;
 import com.google.inject.Injector;
-import com.sobri.library.AppFilter;
 import com.sobri.app.controller.IndexController;
 
 public class Router {
